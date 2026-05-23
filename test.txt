@@ -1,0 +1,12 @@
+Here are words longer than five letters:
+
+planet
+stream
+bridge
+oxygen
+bottle
+crystal
+garden
+window
+rhythm
+library

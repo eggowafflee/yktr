@@ -1,0 +1,1 @@
+cp yktr ~/bin/yktr

@@ -40,4 +40,4 @@ libra-
 ## How to use
 
 To use yktr simply run the command:  
-'''python yktr.py [inputfile] [outputfile]'''
+`python yktr.py [inputfile] [outputfile]`

@@ -5,7 +5,7 @@ words = file.read().split()
 
 def newword(word): 
     if len(word) > 4: 
-        return word + "-" 
+        return word[:4] + "-" 
     else: 
         return word 
 

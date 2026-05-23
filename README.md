@@ -1,7 +1,7 @@
 <h1 align=center>YKTR</h1>
 <h3 align=center>(you know the rest)</h3>
 
-<img src="logo.png">
+<img src="logo.png" align=center>
 
 yktr (you know the rest) is a file converter that converts any raw text file into the ".yktr" file format.   
 yktr.py removes the remaining charecters of any word more that 5 charecters and replaces them with a "-" because — you can guess the rest.   

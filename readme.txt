@@ -18,8 +18,15 @@ library
 
 will output to this:
 
+Here are words longe- than five lette- 
 
-Here are word- long- than five lett- plan- stre- brid- oxyg- bott- crys- gard- wind- rhyt- libr- 
-
-
-(formating is not yet supported)
+plane- 
+strea- 
+bridg- 
+oxyge- 
+bottl- 
+cryst- 
+garde- 
+windo- 
+rhyth- 
+libra- 

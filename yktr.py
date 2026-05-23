@@ -1,20 +1,34 @@
 import sys
 
-file = open(sys.argv[1], "r") 
-words = file.read().split() 
+file = open(sys.argv[1], "r")
 
-def newword(word): 
-    if len(word) > 4: 
-        return word[:4] + "-" 
-    else: 
-        return word 
-
-sentence = "" 
-
-for word in words: 
-    sentence += newword(word) + " "
+lines = file.readlines()
 
 file.close()
+
+fullfile = ""
+
+for line in lines:
+    #print(line)
+    file = line 
+    words = file.split() 
+    
+    cutoff = 5
+
+    def newword(word): 
+        if len(word) > cutoff: 
+            return word[:cutoff] + "-" 
+        else: 
+            return word 
+
+    sentence = "" 
+
+    for word in words: 
+        sentence += newword(word) + " "
+
+  
+    fullfile += "\n"+sentence
+
 
 new_file_name = sys.argv[2]
 
@@ -33,4 +47,4 @@ else:
 
 
 newfile = open(new_file_name, "w")
-newfile.write(sentence)
+newfile.write(fullfile)

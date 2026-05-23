@@ -1,13 +1,36 @@
-file = open(input("file : "), "r")
+import sys
 
-words = file.read().split()
+file = open(sys.argv[1], "r") 
+words = file.read().split() 
 
-words_but_short = [n[:4] for n in words]
+def newword(word): 
+    if len(word) > 4: 
+        return word + "-" 
+    else: 
+        return word 
+
+sentence = "" 
+
+for word in words: 
+    sentence += newword(word) + " "
+
+file.close()
+
+new_file_name = sys.argv[2]
+
+total_char = len(sys.argv[2])
+
+before_ex = total_char - 5
+
+last_5 = sys.argv[2][before_ex:]
+
+if last_5 == ".yktr":
+    pass
+else:
+    new_file_name += ".yktr"
 
 
-sentence = " ".join(words_but_short)
 
-file.close
 
-newfile = open(input("new file name : ")+".yktr", "w")
+newfile = open(new_file_name, "w")
 newfile.write(sentence)

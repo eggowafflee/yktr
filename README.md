@@ -43,5 +43,6 @@ libra-
 
 To use yktr.py simply run the command:  
 `python yktr.py [inputfile] [outputfile]`  
+   
 or simply run it as the executable on linux  
 `yktr [inputfile] [outputfile]`  

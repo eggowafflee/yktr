@@ -7,32 +7,32 @@ yktr.py removes the remaining charecters of any word more that 5 charecters and 
 
 ## Examples
 
-fx. a file like this:
-
-Here are words longer than five letters:
-
-planet
-stream
-bridge
-oxygen
-bottle
-crystal
-garden
-window
-rhythm
-library
-
-will output to this:
-
-Here are words longe- than five lette- 
-
-plane- 
-strea- 
-bridg- 
-oxyge- 
-bottl- 
-cryst- 
-garde- 
-windo- 
-rhyth- 
-libra- 
+fx. a file like this:\n
+\n
+Here are words longer than five letters:\n
+\n
+planet\n
+stream\n
+bridge\n
+oxygen\n
+bottle\n
+crystal\n
+garden\n
+window\n
+rhythm\n
+library\n
+\n
+will output to this:\n
+\n
+Here are words longe- than five lette- \n
+\n
+plane-\n 
+strea- \n
+bridg- \n
+oxyge- \n
+bottl- \n
+cryst- \n
+garde- \n
+windo- \n
+rhyth- \n
+libra- \n

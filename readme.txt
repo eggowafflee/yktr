@@ -1,0 +1,2 @@
+yktr (you know the rest) is a file converter that converts any raw text file into the ".yktr" file format.
+yktr.py removes the remaining charecters of any word more that 4 charecters and replaces them with a "-" because — you can guess the rest.

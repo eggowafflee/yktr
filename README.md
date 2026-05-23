@@ -7,7 +7,7 @@ yktr.py removes the remaining charecters of any word more that 5 charecters and 
 
 ## Examples
 
-fx. a file like this:\n
+fx. a file like this:
 
 Here are words longer than five letters:
 

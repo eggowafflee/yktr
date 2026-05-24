@@ -44,7 +44,5 @@ else:
     new_file_name += ".yktr"
 
 
-
-
 newfile = open(new_file_name, "w")
 newfile.write(fullfile)
